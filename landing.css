@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    display:flex;
+}
+
+#header>div{
+    width:33%;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fa-brands{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+span{
+    color: tomato;
+}
+
+
+/* navbar */
+#navbar{
+    background-color:tomato;
+    text-align: center;
+    padding: 10px;
+}
+
+#navbar a{
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover{
+    color:rgb(255, 208, 0);
+}
+
+/* section1 */
+#section1{
+    position: relative;
+    /* padding: 40px; */
+}
+
+#section1 img{
+    background-size: cover;
+}
+
+#section1 .content {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    margin: 0px 300px 0px 300px;
+}
+
+/* section 2 */
+#section2{
+    display:flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin:  auto;
+}
+
+#section2 div{
+   padding: 20px;
+}
+
+#section2 div img:hover{
+    outline: 1px solid rgb(255, 187, 0);
+}
+
+/* section3 */
+#section3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+#section3 div{
+    padding: 10px;
+}
+
+/* section4 */
+#section4{
+    background-color: #c9826c;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+/* section5 */
+.Gallery-photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section5 h1{
+    padding: 20px;
+}
+
+.Gallery-photos div{
+    padding: 5px;
+}
+
+/* section6 */
+#section6{
+    display: flex;
+    background-color: #2f5096;
+    color: white;
+}
+
+#section6 div{
+    width: 33%;
+    padding: 40px 100px;
+}
+
+#section6 a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#section6 a:hover{
+    color: tomato;
+}
